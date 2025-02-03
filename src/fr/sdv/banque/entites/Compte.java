@@ -1,10 +1,10 @@
 package fr.sdv.banque.entites;
 
 public class Compte {
-    private String numeroCompte;
-    private Double soldeCompte;
+    private int numeroCompte;
+    private double soldeCompte;
 
-    public Compte(String numeroCompte, Double soldeCompte) {
+    public Compte(int numeroCompte, double soldeCompte) {
         this.numeroCompte = numeroCompte;
         this.soldeCompte = soldeCompte;
     }
@@ -14,3 +14,4 @@ public class Compte {
         return "Compte : " + numeroCompte + " Solde : " + soldeCompte;
     }
 }
+
