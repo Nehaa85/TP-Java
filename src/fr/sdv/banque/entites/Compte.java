@@ -8,4 +8,9 @@ public class Compte {
         this.numeroCompte = numeroCompte;
         this.soldeCompte = soldeCompte;
     }
+
+    @Override
+    public String toString() {
+        return "Compte : " + numeroCompte + " Solde : " + soldeCompte;
+    }
 }
